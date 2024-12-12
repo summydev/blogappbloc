@@ -4,7 +4,7 @@ import 'package:blogapp/features/auth/presentation/widgets/auth_gradientbutton.d
 import 'package:flutter/material.dart';
 
 class SignUpPage extends StatefulWidget {
-  static route() => MaterialPageRoute(builder: (context) => SignUpPage());
+  static route() => MaterialPageRoute(builder: (context) => const SignUpPage());
 
   const SignUpPage({super.key});
 
@@ -20,7 +20,6 @@ class _SignUpPageState extends State<SignUpPage> {
 
   @override
   void dispose() {
-
     super.dispose();
     emailController.dispose();
     passwordController.dispose();

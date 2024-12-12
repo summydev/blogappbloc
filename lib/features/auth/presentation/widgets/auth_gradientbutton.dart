@@ -26,7 +26,7 @@ class AuthGradientbutton extends StatelessWidget {
             shadowColor: AppPallete.transparentColor),
         child: Text(
           buttonText,
-          style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+          style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
         ),
       ),
     );
